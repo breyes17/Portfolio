@@ -1,14 +1,12 @@
 import React from 'react';
-import Nav from './component/Nav';
+import Header from './component/Header';
+import ContainerComp from './component/ContainerComp';
 
 function App() {
   return (
     <>
-      <Nav />
-
-      <div className="App">
-        <h1>Hello world</h1>
-      </div>
+      <Header />
+      <ContainerComp />
     </>
   );
 }
